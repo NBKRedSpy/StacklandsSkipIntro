@@ -1,0 +1,9 @@
+{
+    "name": "StacklandsSkipIntro",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/NBKRedSpy/StacklandsSkipIntro",
+    "description": "Skips the loading intro",
+	"dependencies": [
+		"BepInEx-BepInExPack_Stacklands-5.4.2100"
+	]
+}
