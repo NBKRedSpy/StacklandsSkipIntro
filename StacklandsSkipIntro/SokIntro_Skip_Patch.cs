@@ -10,9 +10,10 @@ namespace StacklandsSkipIntro
     [HarmonyPatch(typeof(SokIntro), "FakeUpdate")]
     public static class SokIntro_Skip_Patch
     {
-        public static void Postfix(SokIntro __instance)
+        public static bool Prefix(SokIntro __instance)
         {
             SceneManager.LoadScene(__instance.NextSceneName);
+            return false;
         }
     }
 }
