@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 namespace StacklandsSkipIntro
 {
-    [HarmonyPatch(typeof(SokIntro), "FakeUpdate")]
+    [HarmonyPatch(typeof(SokIntro), "Awake")]
     public static class SokIntro_Skip_Patch
     {
         public static bool Prefix(SokIntro __instance)

@@ -1,6 +1,6 @@
 {
     "name": "StacklandsSkipIntro",
-    "version_number": "1.0.1",
+    "version_number": "1.0.2",
     "website_url": "https://github.com/NBKRedSpy/StacklandsSkipIntro",
     "description": "Skips the loading intro",
 	"dependencies": [
